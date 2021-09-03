@@ -8,11 +8,7 @@ function Portfolio(props) {
                 <Col className="content-body">
                     <Row className="row-content">
                         <h1 className = "body-heading">Portfolio</h1>
-                        <p>Portfolios n stuff</p>
-                            
-                    </Row>
-                    <Row className="row-content">
-                        <h1 className = "body-heading">What I Use:</h1>
+                        <p>Portfolios</p>  
                     </Row>
                 </Col>
             </Container>

@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
     <Router>
       <Header />
       <Switch>
+      <Route path="/contacts" >
+          <Contact />
+        </Route>
       <Route path="/about" >
           <About />
         </Route>
