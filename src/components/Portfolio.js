@@ -10,7 +10,7 @@ function Portfolio(props) {
                         <h1 className="body-heading">Portfolio</h1>
                         <div id="ports">
                             <div className="port-box">
-                                <img src="gametrak.png" className="port" alt="gametrak" />
+                                <img src="gametrak.PNG" className="port" alt="gametrak" />
                                 <div className="details">
                                     <h3>Gametrak</h3>
                                     <h4>Description:</h4> 
@@ -34,7 +34,7 @@ function Portfolio(props) {
                                 </div>
                             </div>
                             <div className="port-box">
-                                <img src="snippets.png" className="port" alt="snippets" />
+                                <img src="snippets.PNG" className="port" alt="snippets" />
                                 <div className="details">
                                     <h3>Snippets</h3>
                                     <h4>Description:</h4> 
