@@ -4,7 +4,7 @@ function Header(props) {
 
     function expandedWin() {
         return (
-            <Nav >
+            <Nav id = "nav" >
                 <Nav.Item>
                     <Nav.Link href="/">Home</Nav.Link>
                 </Nav.Item>

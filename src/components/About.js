@@ -22,9 +22,7 @@ function About(props) {
                         </p>
 
                     </Row>
-                    <Row className="row-content">
-                        <h1 className="body-heading">What I Use:</h1>
-                    </Row>
+
                 </Col>
             </Container>
 

@@ -17,6 +17,7 @@ body {
 }
 #nav-bar{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   font-size: larger;
@@ -24,7 +25,13 @@ body {
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
   border-bottom: goldenrod solid 3px;
-  height: 7.5vh;
+
+}
+#nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 #footer{
   display: flex;
@@ -56,10 +63,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1200px;
+  min-height: 1300px;
   background-size: cover;
   width: 100%;
   background-image:linear-gradient(rgba(0, 0, 0, 0.76), rgba(75, 60, 37, 0.76)), url("./background.jpeg");
+
 }
 .content-body{
   width: 100%;
@@ -84,13 +92,37 @@ body {
 #items{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap:wrap;
+}
+#ports{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap:wrap;
+
 }
 .item-box{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.port-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px goldenrod solid;
+
+}
+.details{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ padding: 5px;
+ width: 100%;
 }
 .resume-box{
   display: flex;
@@ -109,6 +141,13 @@ body {
   height: 50px;
   border:goldenrod solid 3px
   
+}
+.port{
+  animation: hover-shrink .5s;
+  width: 275px;
+  height: 275px;
+  border:white solid 3px;
+  margin: 5px;
 }
 @keyframes hover-grow{
   from{  width: 50px;
