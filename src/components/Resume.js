@@ -13,7 +13,7 @@ function Resume(props) {
                     </Row>
                     <Row className="row-content">
                         <h2 className="body-heading">Summary</h2>
-                        <p>Full-Stack Software Engineer, Mortgage Underwriter, Civil Affairs Veteran, Museum Assistant, and Oakland University Graduate</p>
+                        <p>Full-Stack Software Engineer and US Army Veteran</p>
                     </Row>
                     <Row className="row-content">
                         <h2 className="body-heading">Education</h2>
@@ -31,9 +31,9 @@ function Resume(props) {
                     </Row>
                     <Row className="row-content">
                         <h2 className="body-heading">Past Experiences</h2>
-                        <p>Mortgage Underwriter 2020</p>
-                        <p>U.S. Army Civil Affairs Specialist 2013-2019</p>
-                        <p>Museum Assistant 2018-2019</p>
+                        <p>Purpose Financial - Front End Engineer 2022</p>
+                        <p>United Wholesale Mortgage - Underwriter 2020</p>
+                        <p>U.S. Army - Civil Affairs Specialist 2013</p>
                     </Row>
 
 

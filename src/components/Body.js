@@ -30,6 +30,14 @@ function Body(props) {
                                 React.js
                             </span>
                             <span className = "item-box">
+                                <img src="vue.webp" className="item" alt="Vue.js Logo"/>
+                                Vue.js
+                            </span>
+                            <span className = "item-box">
+                                <img src="nuxt.webp" className="item" alt="Nuxt.js Logo"/>
+                                Nuxt.js
+                            </span>
+                            <span className = "item-box">
                                 <img src="expressjs.png" className="item" alt="Express.js Logo"/>
                                 Express.js
                             </span>

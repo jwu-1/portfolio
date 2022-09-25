@@ -9,7 +9,21 @@ function Portfolio(props) {
                     <Row className="row-content">
                         <h1 className="body-heading">Portfolio</h1>
                         <div id="ports">
+                        <div className="port-box">
+                                
+                                <img src="ciphercom-1.ico" className="port" alt="ciphercom-1" />
+                                <div className="details">
+                                    <h3>Ciphercom-1</h3>
+                                    <h4>Description:</h4> 
+                                    Allows users to generate One Time Pads, the uncrackable method of sending encrypted messages to others offline. The user is allowed to choose which characters to use
+                                    while making the one time pad and there are tools to help decipher or encrypt messages involving simplistic mathematics. Accessible for both desktops and phones!
+                                    <h4>My Role:</h4> Sole Developer (React)
+                                    <a  href="https://ciphercom-1.herokuapp.com/" target="_blank">Link To Site</a>
+                                    <a  href="https://github.com/jwu-1/ciphercom-1" target="_blank">Link To Repo</a>
+                                </div>
+                            </div>
                             <div className="port-box">
+                                
                                 <img src="gametrak.PNG" className="port" alt="gametrak" />
                                 <div className="details">
                                     <h3>Gametrak</h3>
@@ -20,17 +34,6 @@ function Portfolio(props) {
                                     <h4>My Role:</h4> Project Owner, Front-End Designer, Back-End Developer
                                     <a  href="https://gametrak-mern.herokuapp.com/" target="_blank">Link To Site</a>
                                     <a  href="https://github.com/jwu-1/mern-course-capstone-jwu-1.git" target="_blank">Link To Repo</a>
-                                </div>
-                            </div>
-                            <div className="port-box">
-                                <img src="tic-tac-toe.png" className="port" alt="tictactoe" />
-                                <div className="details">
-                                    <h3>Tic Tac Toe</h3>
-                                    <h4>Description:</h4> 
-                                    Play a game of tic tac toe with your friends or face off against
-                                    a responsive computer who will try to win!
-                                    <h4>My Role:</h4> Sole Developer(JS, CSS, HTML)
-                                    <a  href="https://github.com/jwu-1/challenge-tictactoe-jwu-1.git" target="_blank">Link To Repo</a>
                                 </div>
                             </div>
                             <div className="port-box">

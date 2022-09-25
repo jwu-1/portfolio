@@ -18,7 +18,9 @@ function About(props) {
                             needed to be a software developer but after a few years
                             working in other fields like enlisting in the U.S. Army
                             and a mortgage company, I have decided that this was the
-                            only path that I found myself truly excelling in. 
+                            only path that I found myself truly excelling in. As a result,
+                            I have worked as a programmer for over 2 years and never
+                            looked back since.
                         </p>
 
                     </Row>

@@ -63,7 +63,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 1300px;
+  min-height: 83.5vh;
   background-size: cover;
   width: 100%;
   background-image:linear-gradient(rgba(0, 0, 0, 0.76), rgba(75, 60, 37, 0.76)), url("./background.jpeg");
@@ -142,7 +142,6 @@ body {
   
 }
 .port{
-  animation: hover-shrink .5s;
   width: 275px;
   height: 275px;
   border:white solid 3px;
