@@ -31,7 +31,10 @@ function Resume(props) {
                     </Row>
                     <Row className="row-content">
                         <h2 className="body-heading">Past Experiences</h2>
-                        <p>Purpose Financial - Front End Engineer 2022</p>
+                        <span className="resume-box">
+                            <img src="purpose.png" className="resume-item" alt="Purpose Financial Logo" />
+                        </span>
+                        <h4>Purpose Financial - Front End Engineer 2022-2025</h4>
                         <p>United Wholesale Mortgage - Underwriter 2020</p>
                         <p>U.S. Army - Civil Affairs Specialist 2013</p>
                     </Row>

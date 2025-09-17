@@ -18,7 +18,7 @@ function Portfolio(props) {
                                     Allows users to generate One Time Pads, the uncrackable method of sending encrypted messages to others offline. The user is allowed to choose which characters to use
                                     while making the one time pad and there are tools to help decipher or encrypt messages involving simplistic mathematics. Accessible for both desktops and phones!
                                     <h4>My Role:</h4> Sole Developer (React)
-                                    <a  href="https://ciphercom-1.herokuapp.com/" target="_blank">Link To Site</a>
+                                    <a  href="https://ciphercom-1.vercel.app/" target="_blank">Link To Site</a>
                                     <a  href="https://github.com/jwu-1/ciphercom-1" target="_blank">Link To Repo</a>
                                 </div>
                             </div>
@@ -32,7 +32,6 @@ function Portfolio(props) {
                                     by keeping track of the different features of your games
                                     like characters, skills and attributes!
                                     <h4>My Role:</h4> Project Owner, Front-End Designer, Back-End Developer
-                                    <a  href="https://gametrak-mern.herokuapp.com/" target="_blank">Link To Site</a>
                                     <a  href="https://github.com/jwu-1/mern-course-capstone-jwu-1.git" target="_blank">Link To Repo</a>
                                 </div>
                             </div>
