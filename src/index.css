@@ -79,6 +79,9 @@ body {
   animation: info-movement 1s;
   text-align: center;
 }
+.row{
+  width: 100%;
+}
 .row-content{
   display: flex;
   justify-content: center;
