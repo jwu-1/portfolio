@@ -7,7 +7,8 @@ function Contact(props) {
             <Container className="body-container" fluid="true" >
                 <Col className="content-body">
                     <Row className="row-content">
-                        <h1 className="body-heading"><a href href = "mailto: jwu1@tutanota.com">Email</a></h1>
+                        <h1 className="body-heading"><a href href = "mailto: justin.m.wu@protonmail.com">Email</a></h1>
+                        
                     </Row>
                     <Row className="row-content">
                         <h1 className="body-heading"><a href="https://github.com/jwu-1" target="_blank">Git</a></h1>
