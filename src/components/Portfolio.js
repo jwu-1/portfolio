@@ -10,13 +10,23 @@ function Portfolio(props) {
                         <h1 className="body-heading">Portfolio</h1>
                         <div id="ports">
                             <div className="port-box">
-                                <img src="client1.png" className="port" alt="saturnsenshi" />
+                                <img src="client1.png" className="port" alt="saturn senshi image" />
                                 <div className="details">
                                     <h3>Client: Saturn Senshi(Vtuber)</h3>
                                     <h4>Description:</h4> 
                                     A website for a Vtuber made with react that displays her links and social media profiles. Optimized for both desktop and mobile devices. The website is also hosted on Vercel for free.
                                     <h4>My Role:</h4> Sole Developer (React)
                                     <a  href="https://saturnsenshi-demo.vercel.app/" target="_blank">Link To Site</a>
+                                </div>
+                            </div>
+                            <div className="port-box">
+                                <img src="prayer-counter.png" className="port" alt="prayer counter" />
+                                <div className="details">
+                                    <h3>Liturgical Calendar & Prayer Counter</h3>
+                                    <h4>Description:</h4> 
+                                    React + Vite application that displays the daily liturgical calendar, scripture readings, and fasting information using a public API. Includes a prayer counter with daily, weekly, and total tracking, data persistence via localStorage, automatic daily/weekly resets, and a clean dark-themed interface. Deployed on Vercel.
+                                    <h4>My Role:</h4> Sole Developer (React)
+                                    <a  href="https://prayer-counter-sandy.vercel.app/" target="_blank">Link To Site</a>
                                 </div>
                             </div>
                             <div className="port-box">

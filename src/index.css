@@ -89,7 +89,8 @@ body {
   height: 100%;
 }
 .row{
-  width: 96vw;
+  width: 100%;
+  max-width: 800px;
 }
 .row-content{
   display: flex;
@@ -142,7 +143,6 @@ body {
   align-items: center;
 }
 .resume-item{
-  width: 50px;
   height: 50px;
   background-color: white;
   border:goldenrod solid 3px
