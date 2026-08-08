@@ -89,13 +89,12 @@ body {
   height: 100%;
 }
 .row{
-  width: 96vw !;
+  width: 96vw;
 }
 .row-content{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
 }
 @keyframes info-movement {
   from {left: -1000px;}
@@ -128,6 +127,7 @@ body {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.192);
   margin-bottom: 8px;
+  width: 100%;
 }
 .details{
  display: flex;
@@ -160,7 +160,7 @@ body {
   background-color: rgb(223, 223, 223);
 }
 .port{
-  max-width: 96vw;
+  max-width: 100%;
   height: 275px;
   margin: 5px;
 }
