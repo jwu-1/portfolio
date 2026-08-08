@@ -1,15 +1,16 @@
 import React from "react";
 import { Button, Col, Container, Navbar, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 function Resume(props) {
+    console.log(useLocation())
     return (
         <React.Fragment >
             <Container className="body-container" fluid="true" >
                 <Col className="content-body">
                     <Row className="row-content">
                         <h1 className="body-heading">Resume</h1>
-                        <a className = "link" href="resume.pdf"download="JustinWuResume">Download the Resume PDF Here</a>
+                        <a className = "link" href="ResumeJustinWu2026.pdf"download="JustinWuResume">Download the Resume PDF Here</a>
                     </Row>
                     <Row className="row-content">
                         <h2 className="body-heading">Summary</h2>
