@@ -29,7 +29,7 @@ function Header(props) {
     }
     return (
         <React.Fragment >
-            <Navbar bg="dark" variant="dark" id="nav-bar" sticky="top" >
+            <Navbar id="nav-bar" sticky="top" >
                 <Nav.Link href="/"><img src="jmw.png" id="nav-img" /></Nav.Link>
                 <Nav.Link id="nav-title" href="/"><div>Justin Wu</div></Nav.Link>
                 {expandedWin()}
