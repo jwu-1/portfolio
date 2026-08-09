@@ -18,7 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 #nav-title {
-  color: goldenrod;
+  color: goldenrod !important;
   font-size: 100%;
   text-align: center;
   font-family:
@@ -36,6 +36,7 @@ body {
     "Helvetica Neue",
     sans-serif;
 }
+
 #nav-bar {
   display: flex;
   flex-wrap: wrap;
@@ -229,7 +230,8 @@ body {
   transform: scale(1.15);
 }
 #nuxt-icon {
-  background-color: rgb(223, 223, 223);
+  background-color: azure;
+  border-radius: 8px;
 }
 .port {
   max-width: 100%;
