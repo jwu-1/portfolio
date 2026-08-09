@@ -13,7 +13,7 @@ function Body() {
             <p>
               My name is Justin and I am a full-stack software developer from
               Troy, Michigan who's dedicated to providing the best quality
-              applications possible
+              applications possible.
             </p>
           </Row>
           <Row className="row-content">
